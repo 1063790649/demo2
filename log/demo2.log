@@ -1,0 +1,82 @@
+2019-04-26 00:35:22:844- INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Starting Demo2Application on CEN-GD with PID 7004 (F:\springbootwork\demo2\target\classes started by 10637_000 in F:\springbootwork\demo2)
+2019-04-26 00:35:22:859- INFO  [  restartedMain] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-04-26 00:35:22:905- INFO  [  restartedMain] o.s.b.l.DeferredLog            : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-26 00:35:22:906- INFO  [  restartedMain] o.s.b.l.DeferredLog            : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-26 00:35:23:604- INFO  [  restartedMain] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-26 00:35:23:608- INFO  [  restartedMain] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-26 00:35:23:629- INFO  [  restartedMain] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-04-26 00:35:23:933- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [com.example.shiro.ShiroConfiguration$$EnhancerBySpringCGLIB$$6de000b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:037- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:045- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a3d15689] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:048- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:055- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:072- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:227- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:232- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:233- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:234- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:235- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'ILoginserviceImpl' of type [com.example.service.impl.ILoginserviceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:236- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [com.example.shiro.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:367- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:368- INFO  [  restartedMain] o.a.s.c.e.EhCacheManager       : Cache with name 'com.example.shiro.MyShiroRealm.authorizationCache' does not yet exist.  Creating now.
+2019-04-26 00:35:24:380- INFO  [  restartedMain] o.a.s.c.e.EhCacheManager       : Added EhCache named [com.example.shiro.MyShiroRealm.authorizationCache]
+2019-04-26 00:35:24:394- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:397- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$8616c3a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:483- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:541- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:542- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.example.redis.RedisConfig$$EnhancerBySpringCGLIB$$189099b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:555- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'functionDomainRedisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:558- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'hashOperations' of type [org.springframework.data.redis.core.DefaultHashOperations] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:560- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'iRedisService' of type [com.example.service.impl.IRedisServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:562- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'sessoinDao' of type [com.example.redis.RedisSessionDao] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:564- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'simpleCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:566- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:568- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:601- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1594ca58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:609- WARN  [  restartedMain] .x.DocumentBuilderFactoryUtils : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+2019-04-26 00:35:24:610- WARN  [  restartedMain] .x.DocumentBuilderFactoryUtils : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+2019-04-26 00:35:24:619- INFO  [  restartedMain] tractAddressingEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-04-26 00:35:24:628- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'sourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:24:664- INFO  [  restartedMain] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$70fd0559] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-26 00:35:25:123- INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8888 (http)
+2019-04-26 00:35:25:140- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8888"]
+2019-04-26 00:35:25:151- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-04-26 00:35:25:153- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-04-26 00:35:25:159- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-04-26 00:35:25:160- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-26 00:35:25:161- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-26 00:35:25:164- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-04-26 00:35:25:319- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-04-26 00:35:25:319- INFO  [  restartedMain] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2413 ms
+2019-04-26 00:35:25:706- INFO  [  restartedMain] i.l.c.EpollProvider            : Starting without optional epoll library
+2019-04-26 00:35:25:708- INFO  [  restartedMain] i.l.c.KqueueProvider           : Starting without optional kqueue library
+2019-04-26 00:35:26:172- INFO  [  restartedMain] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-26 00:35:26:319- WARN  [  restartedMain] o.t.t.TemplateMode             : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-04-26 00:35:26:359- INFO  [  restartedMain] .w.s.WelcomePageHandlerMapping : Adding welcome page: class path resource [templates/index.html]
+2019-04-26 00:35:26:859- INFO  [  restartedMain] b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2019-04-26 00:35:27:019- INFO  [  restartedMain] ledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-26 00:35:27:027- INFO  [  restartedMain] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8888"]
+2019-04-26 00:35:27:043- INFO  [  restartedMain] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8888 (http) with context path ''
+2019-04-26 00:35:27:048- INFO  [  restartedMain] o.s.b.StartupInfoLogger        : Started Demo2Application in 4.73 seconds (JVM running for 6.496)
+2019-04-26 00:36:32:967- INFO  [nio-8888-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-26 00:36:32:968- INFO  [nio-8888-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-04-26 00:36:32:979- INFO  [nio-8888-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2019-04-26 00:36:32:993- INFO  [nio-8888-exec-1] stractValidatingSessionManager : Enabling session validation scheduler...
+2019-04-26 00:36:33:088- INFO  [nio-8888-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-04-26 00:36:33:181- INFO  [nio-8888-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-04-26 00:36:33:232- INFO  [nio-8888-exec-1] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:36:33:232- INFO  [nio-8888-exec-1] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:37:02:507- INFO  [nio-8888-exec-4] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:37:02:507- INFO  [nio-8888-exec-4] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:37:20:747- INFO  [nio-8888-exec-7] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:37:20:747- INFO  [nio-8888-exec-7] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:37:42:255- INFO  [nio-8888-exec-4] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:37:42:256- INFO  [nio-8888-exec-4] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:38:33:686- INFO  [nio-8888-exec-9] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:38:33:686- INFO  [nio-8888-exec-9] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:38:54:393- INFO  [nio-8888-exec-6] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:38:54:394- INFO  [nio-8888-exec-6] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:47:43:558- INFO  [nio-8888-exec-3] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:47:43:559- INFO  [nio-8888-exec-3] c.e.b.MyLogAction              : 用户登录模块
+2019-04-26 00:47:56:519- INFO  [nio-8888-exec-9] c.e.b.MyLogAction              : 用户登录方法
+2019-04-26 00:47:56:519- INFO  [nio-8888-exec-9] c.e.b.MyLogAction              : 用户登录模块

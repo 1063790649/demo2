@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="public/header::header(~{::title},~{::link})">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link>
+</head>
+<body class="container">
+<div></div>
+<button id="test">Click Me!</button>
+<div id="grid-container">
+    <!--显示数据表格-->
+    <table id="data-grid" style="width: 100%"></table>
+    <!--使用toolbar生成搜索框-->
+    <div id="toolbar-grid"></div>
+    <!--使用QueryControl生成搜索框-->
+    <div id="control-container"></div>
+</div>
+<!--编辑信息对话框-->
+<div id="edit" class="easyui-dialog" style="width:600px;height:360px"
+     data-options="title:'添加用户信息',modal:true,closed:true">
+    <div style="padding:10px 60px 20px 140px">
+        <form id="editForm" method="post">
+            <table cellpadding="5">
+                <tr>
+                    <td>Name:</td>
+                    <td><input class="easyui-textbox" type="text" name="name" id="name" value=""
+                               data-options="required:true"></input></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input class="easyui-textbox" type="text" name="password" id="password" value=""
+                               data-options="required:true,validType:''"></input></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <a href="javascript:void(0)" class="easyui-linkbutton form-submit">提交</a>
+                        <a href="javascript:void(0)" class="easyui-linkbutton form-reset">重置</a>
+                    </td>
+                </tr>
+            </table>
+            <input class="easyui-textbox" name="id" id="id" value="" type="hidden">
+        </form>
+    </div>
+</div>
+
+<scripts th:replace="public/footer :: scripts(~{::script})">
+    <script type="text/javascript" src="/js/test.js">
+    </script>
+</scripts>
+</body>
+</html>

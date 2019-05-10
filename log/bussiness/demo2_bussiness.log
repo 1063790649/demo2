@@ -1,0 +1,8 @@
+2019-04-26 00:36:33:224- INFO  [nio-8888-exec-1] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:37:02:507- INFO  [nio-8888-exec-4] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:37:20:746- INFO  [nio-8888-exec-7] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:37:42:255- INFO  [nio-8888-exec-4] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:38:33:685- INFO  [nio-8888-exec-9] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:38:54:393- INFO  [nio-8888-exec-6] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:47:43:558- INFO  [nio-8888-exec-3] c.e.c.LoginController          : getBussinessLogger===日志测试
+2019-04-26 00:47:56:518- INFO  [nio-8888-exec-9] c.e.c.LoginController          : getBussinessLogger===日志测试

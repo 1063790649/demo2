@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid palevioletred;
+}
+th,td{
+    height: 30px;
+    text-align: center;
+    border: 1px solid deeppink;
+}
+.evenRow1{background: yellow;}
+.oddRow1{background: green;}
+.curRow1{background: blue;}
+
+#nav li {
+    list-style: none;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #0000FF;
+    border-bottom: none;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#cont div {
+    width: 210px;
+    height: 150px;
+    border: 1px solid #0000FF;
+    margin-left: 10px;
+    clear: both;
+    display: none;
+}
+
+.active {
+    background: #AFEEEE;
+}

@@ -1,0 +1,37 @@
+server:
+  servlet:
+    session:
+      timeout: 30
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/news?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    isRedisCache: true
+    password:
+    timeout: 5000
+  profiles:
+    active: dev
+  resources:
+    static-locations: classpath:/static/,classpath:/templates/
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/sysUsers/*Mapper.xml
+  type-aliases-package: com.example.pojo.sysUsers
+#logging:
+#  level:
+#    org.springframework.web: info
+#    com.example.controller: info
+#  file: logs/log4j2.log
+logging:
+  config: classpath:log4j2.yml

@@ -1,0 +1,8 @@
+2019-04-26 00:36:33:226-DEBUG  [nio-8888-exec-1] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:37:02:507-DEBUG  [nio-8888-exec-4] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:37:20:746-DEBUG  [nio-8888-exec-7] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:37:42:255-DEBUG  [nio-8888-exec-4] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:38:33:686-DEBUG  [nio-8888-exec-9] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:38:54:393-DEBUG  [nio-8888-exec-6] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:47:43:558-DEBUG  [nio-8888-exec-3] c.e.c.LoginController          : getDBLogger===日志测试
+2019-04-26 00:47:56:518-DEBUG  [nio-8888-exec-9] c.e.c.LoginController          : getDBLogger===日志测试

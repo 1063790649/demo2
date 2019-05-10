@@ -1,0 +1,16 @@
+2019-04-26 00:36:33:222-ERROR  [nio-8888-exec-1] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:36:33:222-ERROR  [nio-8888-exec-1] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:02:506-ERROR  [nio-8888-exec-4] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:02:506-ERROR  [nio-8888-exec-4] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:20:745-ERROR  [nio-8888-exec-7] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:20:745-ERROR  [nio-8888-exec-7] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:42:254-ERROR  [nio-8888-exec-4] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:37:42:254-ERROR  [nio-8888-exec-4] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:38:33:685-ERROR  [nio-8888-exec-9] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:38:33:685-ERROR  [nio-8888-exec-9] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:38:54:392-ERROR  [nio-8888-exec-6] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:38:54:392-ERROR  [nio-8888-exec-6] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:47:43:558-ERROR  [nio-8888-exec-3] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:47:43:558-ERROR  [nio-8888-exec-3] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:47:56:518-ERROR  [nio-8888-exec-9] c.e.c.LoginController          : getExceptionLogger===日志测试
+2019-04-26 00:47:56:518-ERROR  [nio-8888-exec-9] c.e.c.LoginController          : getExceptionLogger===日志测试
